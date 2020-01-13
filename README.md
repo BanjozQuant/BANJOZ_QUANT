@@ -1,6 +1,6 @@
 # GUI
 
-WXWIDGETS
+WXWIDGETS ( C++ version )
 
 For our main GUI i am using the Wxwidgets framework.
 
@@ -19,3 +19,4 @@ BEYOND ===
 
 Looking forward, i am going to dabble in AI. Hence the framework up front to allow
 unsupervised learning.
+
