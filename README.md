@@ -1,22 +1,22 @@
-# GUI
+# Main
 
-WXWIDGETS ( C++ version )
+This project is for automated unsupervised algorithm trading.
 
-For our main GUI i am using the Wxwidgets framework.
+There are a few key elements 
 
-within this we will be able to access the various modules
+1 - BROKER ===  The broker i use is interactive brokers. This is important as it's the API that i use. Having said that, the IB API stuff is confined to it's own module, so it could be easily overloaded.
 
-== IBGController - to control actions to and from Interactive brokers.
-== Historian - To store, retrieve and analyse public data.
-== Accountant - To store, retrieve and analyse PRIVATE data.
+2 - GUI === The GUI framework i have chosen is WXWidgets. It should port to various OS's, MAC, Linux. I use windows so it would be good if others could help out here.
 
-I have split these modules up into various repos to try and hide complexity. 
-It should be possible to run them autonomously, ie via a command line tester.
+In terms of modules ... 
+
+1 - Historian == This Saves public Market data, including dividends etc.
+2 - Accountant == This will save PRIVATE data, trades, transactions
+3 - IBGController == controls requests and data to and from IB. Can also place trades.
 
 ==========================================================================
 
 BEYOND ===
 
-Looking forward, i am going to dabble in AI. Hence the framework up front to allow
-unsupervised learning.
+Looking forward, i am going to dabble in AI. Hence the framework up front to allow unsupervised learning. Any suggestions would be welcome.
 
