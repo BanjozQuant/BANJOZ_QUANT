@@ -11,7 +11,9 @@ There are a few key elements
 In terms of modules ... 
 
 1 - Historian == This Saves public Market data, including dividends etc.
+
 2 - Accountant == This will save PRIVATE data, trades, transactions
+
 3 - IBGController == controls requests and data to and from IB. Can also place trades.
 
 ==========================================================================
